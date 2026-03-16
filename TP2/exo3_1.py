@@ -1,12 +1,26 @@
-import os, sys, time
+import os, sys, time, signal
 
-counter = 1
-while counter <= 5:
-    b = os.read(0, 1)
 
-    os.write(1, b)
+STD_IN = 0
+STD_OUT = 1
+
+counter = 0
+
+
+def signal_handler(sig_num, frame):
+    global counter
+    signal.alarm(2)
     counter += 1
-    time.sleep(2)
+    print(counter)
+    if counter == 5:
+        sys.exit(0)
 
 
-sys.exit(0)
+if __name__ == "__main__":
+    signal.signal(signal.SIGALRM, signal_handler)
+    signal.alarm(2)
+    bs = os.read(STD_IN, 1)
+    if len(bs) != 0:
+        os.write(STD_OUT, bs)
+        bs = os.read(STD_IN, 1)
+    sys.exit(0)
