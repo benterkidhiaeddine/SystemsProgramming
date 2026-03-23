@@ -10,6 +10,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as serversocket:
     serversocket.bind((HOST, PORT))  # bind this socket to specific port on host
     serversocket.listen()  # make the socket a listening one
     while True:
+
         (
             clientsocket,
             (
