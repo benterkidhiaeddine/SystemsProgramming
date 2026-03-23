@@ -1,0 +1,51 @@
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+total 32
+-rw-r--r-- 1 dhia dhia 270 Mar 16 13:24 Reponses.md
+-rw-r--r-- 1 dhia dhia 142 Mar 16 13:25 exo1_2.py
+-rw-r--r-- 1 dhia dhia   0 Mar 16 13:53 exo2.py
+-rwxr-xr-x 1 dhia dhia  48 Mar 16 14:54 log.txt
+-rw-r--r-- 1 dhia dhia 659 Mar 16 14:33 logger.py
+-rw-r--r-- 1 dhia dhia 441 Mar 16 14:24 mycat.py
+-rw-r--r-- 1 dhia dhia   2 Mar 16 13:47 new
+-rwxr-xr-x 1 dhia dhia  16 Mar 16 14:54 script.sh
+-rw-r--r-- 1 dhia dhia 522 Mar 16 14:54 shell_logger.py
+hello
+total 32
+-rw-r--r-- 1 dhia dhia 270 Mar 16 13:24 Reponses.md
+-rw-r--r-- 1 dhia dhia 142 Mar 16 13:25 exo1_2.py
+-rw-r--r-- 1 dhia dhia   0 Mar 16 13:53 exo2.py
+-rwxr-xr-x 1 dhia dhia 510 Mar 16 14:54 log.txt
+-rw-r--r-- 1 dhia dhia 659 Mar 16 14:33 logger.py
+-rw-r--r-- 1 dhia dhia 441 Mar 16 14:24 mycat.py
+-rw-r--r-- 1 dhia dhia   2 Mar 16 13:47 new
+-rwxr-xr-x 1 dhia dhia  16 Mar 16 14:54 script.sh
+-rw-r--r-- 1 dhia dhia 512 Mar 16 14:54 shell_logger.py
+hello
+total 32
+-rw-r--r-- 1 dhia dhia 270 Mar 16 13:24 Reponses.md
+-rw-r--r-- 1 dhia dhia 142 Mar 16 13:25 exo1_2.py
+-rw-r--r-- 1 dhia dhia   0 Mar 16 13:53 exo2.py
+-rwxr-xr-x 1 dhia dhia 972 Mar 16 14:54 log.txt
+-rw-r--r-- 1 dhia dhia 659 Mar 16 14:33 logger.py
+-rw-r--r-- 1 dhia dhia 441 Mar 16 14:24 mycat.py
+-rw-r--r-- 1 dhia dhia   2 Mar 16 13:47 new
+-rwxr-xr-x 1 dhia dhia  16 Mar 16 14:54 script.sh
+-rw-r--r-- 1 dhia dhia 512 Mar 16 14:54 shell_logger.py
+hello
+total 32
+-rw-r--r-- 1 dhia dhia  270 Mar 16 13:24 Reponses.md
+-rw-r--r-- 1 dhia dhia  142 Mar 16 13:25 exo1_2.py
+-rw-r--r-- 1 dhia dhia    0 Mar 16 13:53 exo2.py
+-rwxr-xr-x 1 dhia dhia 1434 Mar 16 14:54 log.txt
+-rw-r--r-- 1 dhia dhia  659 Mar 16 14:33 logger.py
+-rw-r--r-- 1 dhia dhia  441 Mar 16 14:24 mycat.py
+-rw-r--r-- 1 dhia dhia    2 Mar 16 13:47 new
+-rwxr-xr-x 1 dhia dhia   16 Mar 16 14:54 script.sh
+-rw-r--r-- 1 dhia dhia  512 Mar 16 14:54 shell_logger.py
