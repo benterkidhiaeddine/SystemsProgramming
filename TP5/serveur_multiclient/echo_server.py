@@ -1,6 +1,8 @@
-import os, sys, atexit
-import server
+import atexit
+import os
+import sys
 
+import server
 
 MAXBYTES = 4096
 clients = {}
