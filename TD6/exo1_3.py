@@ -1,4 +1,5 @@
-import os, sys
+import os
+import sys
 
 fd1 = os.open("toto.txt", os.O_RDONLY)
 fd2 = os.open("toto.txt", os.O_RDONLY)
@@ -8,13 +9,14 @@ os.close(fd1)
 os.close(fd2)
 print(bytes_sequence)
 print(bytes_sequence.decode("utf-8"))
+# The text in toto.txt is encoded in utf-8 that's why it will show twho diffrent characters for the "é"
 print(bytes_sequence.decode("latin-1"))
 
 sys.exit(0)
 
 
 # Convertir d'utf-8 en latin-1
-def convert_utf8_to_latin1(ch_utf8):
+def convert_utf8_to_latin1(ch_utf8: bytes):
     return ch_utf8.decode("utf-8").encode("latin-1")
 
 
