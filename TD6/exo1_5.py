@@ -1,4 +1,5 @@
-import os, sys
+import os
+import sys
 
 fd1 = os.open("titi.txt", os.O_RDONLY)
 fd2 = os.open("titi.txt", os.O_RDONLY)
@@ -10,5 +11,5 @@ c = os.read(fd1, 1)
 # on l'avance d'un autre otctet et on lit le deuxième octect dans le texte
 os.close(fd1)
 os.close(fd2)
-print(c)  # affiche b'z'
+print(c)  # affiche b'a'
 sys.exit(0)
