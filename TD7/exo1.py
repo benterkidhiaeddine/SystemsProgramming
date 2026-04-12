@@ -9,8 +9,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as serversocket:
     # SOCK_STREAM: TCP
     serversocket.bind((HOST, PORT))  # bind this socket to specific port on host
     serversocket.listen()  # make the socket a listening one
-    while True:
 
+    # We add an infinit while loop here to make sure the server dosen't terminate when the first client disconnects
+    while True:
         (
             clientsocket,
             (
