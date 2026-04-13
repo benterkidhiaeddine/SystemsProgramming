@@ -64,7 +64,7 @@ try:
     pid, status = os.wait()
     if os.WIFEXITED(status):
         print(
-            f"La commande avec le pid :{pid} a réussi d'étre executé sons statut est {os.WEXITSTATUS(status)}"
+            f"La commande avec le pid :{pid} a réussi d'étre executé son statut est {os.WEXITSTATUS(status)}"
         )
     else:
         print(
