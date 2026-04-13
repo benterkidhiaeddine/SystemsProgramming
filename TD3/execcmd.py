@@ -5,7 +5,7 @@ import sys
 try:
     filename = sys.argv[1]
     argv = sys.argv[1:]
-    os.execv(filename, argv)
+    os.execvp(filename, argv)
 except IndexError:
     print(f"Usage: {sys.argv[0]} <command> [args...]")
     sys.exit(1)
