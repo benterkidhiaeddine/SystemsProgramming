@@ -15,6 +15,8 @@ try:
     pid = os.fork()
 except OSError:
     print("Un problème est survenue lors du fork")
+    sys.exit(1)
+
 if pid == 0:  # fils
     try:
         # On choisit execvp pour qu'on puisse seulemnt passer le nom de la commande
