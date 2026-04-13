@@ -1,11 +1,15 @@
-import signal , time, random
+import random
+import signal
+
 counter = 0
+
 
 def first_try():
     counter = 0
+
     def handler(sig, ignore):
         print("bip")
-        global counter 
+        global counter
         counter += 1
         if counter == 6:
             print("bye")
@@ -17,18 +21,19 @@ def first_try():
     signal.alarm(1)
 
     while True:
-        a = random.randint(2 ** 40, 2**45)
-        b = random.randint(2 ** 40, 2**45)
+        a = random.randint(2**40, 2**45)
+        b = random.randint(2**40, 2**45)
         p = a * b
         try:
-            print(a, b , p)
+            print(a, b, p)
         except:
             continue
+
 
 def second_try():
     def handler(sig, ignore):
         print("bip")
-        global counter 
+        global counter
         counter += 1
         if counter == 6:
             print("bye")
@@ -40,8 +45,7 @@ def second_try():
         signal.alarm(1)
         signal.pause()
 
-    
-    
+
 if __name__ == "__main__":
     first_try()
-    #second_try()
+    # second_try()
